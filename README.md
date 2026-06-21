@@ -1,44 +1,80 @@
-# vCard - Personal portfolio
+````markdown id="9o5d2n"
+# Sagar Upadhaya | Personal Academic Website
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+This repository contains the source code for the personal academic website of **Sagar Upadhaya**.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+The website is designed as a simple, responsive academic profile page and includes sections for:
 
-## Demo
+- About
+- Resume / CV
+- Research
+- Publications
+- Blog / Notes
+- Contact
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+## Website
 
-## Prerequisites
+The website will be available at:
 
-Before you begin, ensure you have met the following requirements:
+```text
+https://sagarupadhaya.github.io/
+````
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-## Installing vCard
-
-To install **vCard**, follow these steps:
-
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
 ```
 
-Windows:
+## Structure
 
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+```text
+.
+├── index.html
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   ├── images/
+│   │   └── sagar-profile.jpg
+│   └── pdf/
+│       └── Sagar_Upadhaya_CV.pdf
+└── README.md
 ```
 
-## Contact
+## Local Preview
 
-If you want to contact me you can reach me at [Twitter](https://www.x.com/codewithsadee_).
+To preview the website locally, run:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open:
+
+```text
+http://localhost:8000
+```
+
+## Deployment
+
+This website is deployed using **GitHub Pages**.
+
+GitHub Pages settings:
+
+```text
+Source: Deploy from a branch
+Branch: main
+Folder: /root
+```
+
+## Template Credit
+
+This website is adapted from the open-source vCard personal portfolio template by codewithsadee.
+
+Original template:
+https://github.com/codewithsadee/vcard-personal-portfolio
 
 ## License
 
-MIT
+The original template is licensed under the MIT License.
+
+```
+```
